@@ -1,18 +1,10 @@
 const getFirstTimeCustomer = (orders, customerName) => {
+  var howManyTimes = 0;
   for (let i = 0; i < orders.length; i++) {
-    if (orders[i].customerName === customerName) {
-      if (i !== 0) {
-        return true;
-      }
-      for (let j = 0; j < orders.length; j++) {
-        if (orders[j].customerName === customerName) {
-          return true;
-        }
-      }
-      return false;
-    }
+    howManyTimes =
+      orders[i].customerName == customerName ? howManyTimes + 1 : howManyTimes;
   }
-  return false;
+  return howManyTimes > 1 ? false : true;
 };
 
 const findOrderExtras = (orders) => {
@@ -108,22 +100,31 @@ const findMostExpensiveCoffee = (orders) => {
 
 const applyDiscount = (orders) => {
   var sum = 0;
-  var discount;
   orders.forEach((order) => {
-    sum = sum + order.price;
+    order.price = order.price * 0.2;
+    sum += order.price;
   });
-  console.log(sum);
-  discount = sum * 0.2;
-  return discount;
+  return sum;
 };
 
+// const addCustomCoffee = (orders) => {
+//   var customType = "Caramel Macchiato";
+//   var customPrice = 5;
+//   updatedOrder = orders.forEach((order) => {
+//     if (order.customerName === "Alex") {
+//       order.coffeeType = customType;
+//       order.price = customPrice;
+//     }
+//   });
+//   return orders;
+// };
+
 const addCustomCoffee = (orders) => {
-  var customType = "Caramel Macchiato";
-  var customPrice = 5;
-  updatedOrder = orders.forEach((order) => {
+  var customExtra = "sugar";
+  orders.forEach((order) => {
     if (order.customerName === "Alex") {
-      order.coffeeType = customType;
-      order.price = customPrice;
+      order.extras.push(customExtra);
+      order.price += 5;
     }
   });
   return orders;

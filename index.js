@@ -1,4 +1,4 @@
-console.clear();
+console.log("verificare");
 
 var coffeeOrders = require("./coffeeShopData.json");
 var coffeeOrdersEdits = require("./coffeeFunctions.js");
@@ -7,9 +7,9 @@ console.log(coffeeOrders);
 
 const firstTimeCustomer = coffeeOrdersEdits.getFirstTimeCustomer(
   coffeeOrders,
-  "John"
+  "Ionut"
 );
-console.log(firstTimeCustomer, "John");
+console.log(firstTimeCustomer, "Ionut");
 
 coffeeOrdersEdits.findOrderExtras(coffeeOrders);
 
@@ -32,9 +32,8 @@ const mostExpensiveCoffee = coffeeOrdersEdits.findMostExpensiveCoffee(
 );
 console.log(mostExpensiveCoffee);
 
+const updatedOrders = coffeeOrdersEdits.addCustomCoffee(coffeeOrders);
+console.log(updatedOrders);
+
 const discountAmount = coffeeOrdersEdits.applyDiscount(coffeeOrders);
 console.log(discountAmount);
-console.log("meow");
-
-const updatedOrder = coffeeOrdersEdits.addCustomCoffee(coffeeOrders);
-console.log(updatedOrder);

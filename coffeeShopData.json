@@ -1,7 +1,7 @@
 [
   {
     "orderID": "ORD001",
-    "customerName": "John",
+    "customerName": "Ionut",
     "coffeeType": "Cappuccino",
     "extras": ["extra shot", "almond milk"],
     "price": 4
