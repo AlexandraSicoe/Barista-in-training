@@ -1,0 +1,148 @@
+[
+  {
+    "orderID": "ORD001",
+    "customerName": "John",
+    "coffeeType": "Cappuccino",
+    "extras": ["extra shot", "almond milk"],
+    "price": 4
+  },
+  {
+    "orderID": "ORD002",
+    "customerName": "Samantha",
+    "coffeeType": "Latte",
+    "extras": ["vanilla syrup"],
+    "price": 3.5
+  },
+  {
+    "orderID": "ORD003",
+    "customerName": "Alex",
+    "coffeeType": "Americano",
+    "extras": [],
+    "price": 2.5
+  },
+  {
+    "orderID": "ORD004",
+    "customerName": "John",
+    "coffeeType": "Cappuccino",
+    "extras": ["extra shot", "oat milk"],
+    "price": 4.5
+  },
+  {
+    "orderID": "ORD005",
+    "customerName": "Alex",
+    "coffeeType": "Flat White",
+    "extras": ["caramel syrup", "extra shot"],
+    "price": 4
+  },
+  {
+    "orderID": "ORD006",
+    "customerName": "Samantha",
+    "coffeeType": "Latte",
+    "extras": ["vanilla syrup", "soy milk"],
+    "price": 4
+  },
+  {
+    "orderID": "ORD007",
+    "customerName": "Alex",
+    "coffeeType": "Espresso",
+    "extras": [],
+    "price": 2
+  },
+  {
+    "orderID": "ORD008",
+    "customerName": "John",
+    "coffeeType": "Cappuccino",
+    "extras": ["extra shot", "almond milk", "hazelnut syrup"],
+    "price": 5
+  },
+  {
+    "orderID": "ORD009",
+    "customerName": "Alex",
+    "coffeeType": "Americano",
+    "extras": ["extra shot"],
+    "price": 3
+  },
+  {
+    "orderID": "ORD010",
+    "customerName": "Samantha",
+    "coffeeType": "Latte",
+    "extras": ["vanilla syrup", "extra shot", "soy milk"],
+    "price": 4.5
+  },
+  {
+    "orderID": "ORD011",
+    "customerName": "John",
+    "coffeeType": "Cappuccino",
+    "extras": ["extra shot", "almond milk", "chocolate syrup", "whipped cream"],
+    "price": 7
+  },
+  {
+    "orderID": "ORD012",
+    "customerName": "Alex",
+    "coffeeType": "Flat White",
+    "extras": ["caramel syrup", "extra shot", "whipped cream"],
+    "price": 4.5
+  },
+  {
+    "orderID": "ORD013",
+    "customerName": "Samantha",
+    "coffeeType": "Latte",
+    "extras": ["vanilla syrup", "extra shot", "soy milk", "chocolate syrup"],
+    "price": 5
+  },
+  {
+    "orderID": "ORD014",
+    "customerName": "John",
+    "coffeeType": "Cappuccino",
+    "extras": ["extra shot", "oat milk", "caramel syrup"],
+    "price": 5
+  },
+  {
+    "orderID": "ORD015",
+    "customerName": "Alex",
+    "coffeeType": "Americano",
+    "extras": ["extra shot", "whipped cream"],
+    "price": 3.5
+  },
+  {
+    "orderID": "ORD016",
+    "customerName": "Samantha",
+    "coffeeType": "Latte",
+    "extras": ["vanilla syrup", "extra shot", "soy milk", "caramel syrup"],
+    "price": 5.5
+  },
+  {
+    "orderID": "ORD017",
+    "customerName": "Alex",
+    "coffeeType": "Flat White",
+    "extras": ["caramel syrup", "extra shot", "chocolate syrup"],
+    "price": 4.5
+  },
+  {
+    "orderID": "ORD018",
+    "customerName": "John",
+    "coffeeType": "Cappuccino",
+    "extras": ["extra shot", "almond milk", "hazelnut syrup"],
+    "price": 5
+  },
+  {
+    "orderID": "ORD019",
+    "customerName": "Alex",
+    "coffeeType": "Americano",
+    "extras": ["extra shot"],
+    "price": 3
+  },
+  {
+    "orderID": "ORD020",
+    "customerName": "Samantha",
+    "coffeeType": "Latte",
+    "extras": [
+      "vanilla syrup",
+      "extra shot",
+      "soy milk",
+      "caramel syrup",
+      "whipped cream"
+    ],
+    "price": 6
+  }
+]
